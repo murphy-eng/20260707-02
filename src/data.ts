@@ -1,0 +1,171 @@
+import { Property } from './types';
+
+export const PROPERTIES: Property[] = [
+  {
+    id: '1',
+    title: 'Modern Residence Setagaya',
+    jpTitle: '世田谷現代官邸',
+    price: 78500000,
+    priceDisplay: '¥78,500,000',
+    location: 'Setagaya-ku, Tokyo',
+    region: 'Tokyo',
+    type: '3LDK',
+    area: '85.20m²',
+    floor: '4F',
+    badge: 'New Arrival',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCZj2adgpAY0IVRXdD_RhJLeRdrl9yUA1KQvRLI8Y3aobjsHFhutYfleQuESwgVj9jZH6H9WJ0HvNMyGFtAD8n0bOgpv2k_j_pV-W9hyCxXmij8TF8EosDtxr89Q9eklL8s7hkpu2QkcShV6bwzF6ztIqHKCb4mrE6TX3ETGAxX6gGtjFaZEfLeyqIGeFNiZfOBX-KUwibCMFt2DadgvFCHdqf7hFJ06vVreD4XL3UzpttpXtZcWNb-cqUOKJaBV_siEKebxlGr0WM8',
+    description: 'An elegant, modern 3LDK apartment interior in Setagaya-ku, Tokyo, featuring light oak wood floors, minimalist white walls, and floor-to-ceiling windows that fill the space with bright, natural daylight. The furnishing is contemporary and high-end, representing a clean and professional living environment.',
+    jpDescription: '世田谷區精緻現代 3LDK 住宅，配有淺色橡木地板、極簡白牆和落地大窗，採光充沛。配備高品質進口廚衛設備與舒適地暖。',
+    purpose: 'buy',
+    details: {
+      yearBuilt: '2022',
+      station: '6 min walk from Kyodo Station (Odakyu Line)',
+      structure: 'Reinforced Concrete (RC)',
+      amenities: ['Floor Heating', 'Walk-in Closet', '24h Trash Chute', 'Auto-Lock Security', 'Dishwasher'],
+      monthlyFee: '¥24,000'
+    }
+  },
+  {
+    id: '2',
+    title: 'Shibuya Urban Suite',
+    jpTitle: '澀谷都會雅緻別墅',
+    price: 124000000,
+    priceDisplay: '¥124,000,000',
+    location: 'Shibuya-ku, Tokyo',
+    region: 'Tokyo',
+    type: '2LDK',
+    area: '72.45m²',
+    floor: '12F',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBpNOWltgAhMI1lCfmN1ekidRsYI2MhPVUAXt6vE3t9tmoYkv-bfgVg6KsBYd9nJDNavzOdhx0nYKWHlx5BpovpsKeJaDDC9pyyPKRaO_2I3LdhHzkP1-gVIz1NVuf1IUzYkquuf_c5gU4FBxfqOV2qkPcpCw7yrHbdvvBqN3FT5ayp061AuKwbc01yLegg2DTrfReuSCKWFbp1Xxl_UQ0L02dByV_aFA28mfqQn-NZW2B-ZdTs6pCVGOBjMs4nknKP4jcbOMU58832',
+    description: 'A sleek, modern townhouse exterior in Shibuya, Tokyo. The facade combines dark charcoal metal panels with warm cedar wood accents. The architecture is sharp and contemporary, captured in soft evening lighting that highlights the sophisticated material textures. Designed for a luxurious, private urban life.',
+    jpDescription: '位於澀谷黃金地段的低調奢華別墅，將黑炭金屬面板與溫潤杉木裝飾巧妙結合。建築線條流暢，採光與私密性絕佳，展現當代設計之美。',
+    purpose: 'buy',
+    details: {
+      yearBuilt: '2023',
+      station: '8 min walk from Shibuya Station (JR & Tokyo Metro)',
+      structure: 'Steel Frame & Reinforced Concrete',
+      amenities: ['Rooftop Terrace', 'Built-in Audio System', 'Smart Home Controls', 'Private Carport', 'Wine Cellar'],
+      monthlyFee: '¥18,500'
+    }
+  },
+  {
+    id: '3',
+    title: 'Minato Skyline View',
+    jpTitle: '港區天際線頂層公寓',
+    price: 215000000,
+    priceDisplay: '¥215,000,000',
+    location: 'Minato-ku, Tokyo',
+    region: 'Tokyo',
+    type: '4LDK',
+    area: '142.10m²',
+    floor: '28F',
+    badge: 'Premium',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBASw5dh1Pf5KIa9c7m0e6Wi0kuC57WtVYQQ7Xtm9lRrzz92MNh7aIvhAuii9Ds0EwcwRK-SPpnL7GZEDNqcNirSpJ6Vg5ZxBVRj7cbIlDdch6bWCvP2EaUaNxK2GQwDNDqoI-jvxsVonTOAn_eeeGJDsPx5bWfJpffP5YTAYFfGvEkjPkFZwtNFS9OJv9R3rbf3khbUR7oYdFYxJRMFiFI9A8DayqNISuq7faZ0hAlXLtH1a3Esx-3hKCsqz_ZeVCYCjMnXF6LCspP',
+    description: 'A bright, spacious open-plan penthouse in Minato-ku, Tokyo, with panoramic views of the city skyline including the Tokyo Tower. The room features white marble flooring, high ceilings, and high-end minimalist design. Conveying a sense of elite urban living with crisp and airy lighting.',
+    jpDescription: '港區 28 樓頂奢空中別墅，俯瞰東京鐵塔和極致城市夜景。全屋鋪設頂級大理石，挑高客堂，搭配義大利高端家具，象徵極致都市精英生活。',
+    purpose: 'buy',
+    details: {
+      yearBuilt: '2021',
+      station: '4 min walk from Roppongi Station (Oedo Line)',
+      structure: 'Seismic Isolation Structure (SRC)',
+      amenities: ['Concierge Service', '24h Security Guard', 'Marble Baths', 'Private Elevator Door', 'Tokyo Tower View'],
+      monthlyFee: '¥48,000'
+    }
+  },
+  {
+    id: '4',
+    title: 'Kamakura Beachside Holiday Home',
+    jpTitle: '鎌倉海岸風情民宿別墅',
+    price: 95000000,
+    priceDisplay: '¥95,000,000',
+    location: 'Kamakura, Kanagawa',
+    region: 'Kanagawa',
+    type: 'Other',
+    area: '110.50m²',
+    floor: '2F',
+    badge: 'Investment',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuABZfsK81gwLaOjQtioxTrL5nuKQ5zBlnFOY_ec59TXwKQPqRllx2VqUX0AhdMb6GAPs6KWcMRu_A2n1kdKV6yH6QjFA7nROwXxZMTfjC4KC74yN4qbduV1q_yK2h3GM1GvK8Zj04IEvOS07bMXk8EagXA8-0pPp31ZwPwdA0cTKCHoyxFyVUVL9qUjirFnnKcEsaSqRkvF6Uf5ve3ZKLll_VW8-CFC0QuDFCBepeiA96VWyoQHGHMUm0I5s8dSd8y-nCYrFRWVQ88x',
+    description: 'A charming traditional-modern seaside holiday home (Minshuku) in historic Kamakura. Features open exposed wood beams, premium tatami guest rooms, and a contemporary gourmet kitchen. High historical returns as a registered vacation rental.',
+    jpDescription: '鎌倉海濱日式復古民宿，將杉木大樑、琉球疊榻榻米與現代全套廚具完美融合。附帶合法民宿執照，投資收益與渡假自住皆宜。',
+    purpose: 'buy',
+    details: {
+      yearBuilt: '2019',
+      station: '3 min walk from Hase Station (Enoden Line)',
+      structure: 'Premium Wood (W)',
+      amenities: ['Ocean View Deck', 'Japanese Tea Room', 'Hinoki Cypress Bath', 'High-Speed Wi-Fi', 'Licenced Holiday Rental'],
+      monthlyFee: '¥12,000'
+    }
+  },
+  {
+    id: '5',
+    title: 'Hakone Forest hot-spring Retreat',
+    jpTitle: '箱根森林溫泉獨棟別墅',
+    price: 158000000,
+    priceDisplay: '¥158,000,000',
+    location: 'Hakone, Kanagawa',
+    region: 'Kanagawa',
+    type: 'Other',
+    area: '165.00m²',
+    floor: 'House',
+    badge: 'Premium',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAP8lTI0qmgYrqj5WsoodngogGuPyehNjlajm0IZjkWttCTSxPCBdBfr66x2xYwWDXgyT3zmqmnWbJ7G6yGX80VHmeskiMAzKYYsK4OzgNci50TzgH7kBwzW8EY4ncBvYjn4F2_kSQ-7r9YCa2TcDa5oKpRhVeqjEtEolXcWAuISYvRlOwL0nE_ruSadQOxeDC4v8YBh1gEXArF9FIuBIbNgtfJW2Wj0ocWs3DepvMFt-8Tej9mVGWCyPB1kOlYIkZcQYZ8HX_m4bNQ',
+    description: 'An exquisite luxury mountain retreat in Hakone with an authentic private natural hot spring bath (Onsen). Overlooking the scenic forest and valleys, this modern zen property offers the ultimate quiet sanctuary and high-end holiday lodging.',
+    jpDescription: '箱根仙石原頂級溫泉度假別墅。配有源泉直引的私人露天溫泉與檜木浴池。超大落地窗可欣賞四季森林變幻，享受純粹的身心釋放。',
+    purpose: 'buy',
+    details: {
+      yearBuilt: '2020',
+      station: '12 min drive from Hakone-Yumoto Station',
+      structure: 'Heavy Timber Frame',
+      amenities: ['Private Natural Onsen', 'Fireplace', 'Wood-deck Balcony', 'Floor Heating', 'Parking (3 cars)'],
+      monthlyFee: '¥35,000'
+    }
+  },
+  {
+    id: '6',
+    title: 'Aoyama Premium Designer Suite',
+    jpTitle: '青山名門極簡設計公寓',
+    price: 420000,
+    priceDisplay: '¥420,000 / month',
+    location: 'Minato-ku, Tokyo',
+    region: 'Tokyo',
+    type: '2LDK',
+    area: '75.80m²',
+    floor: '18F',
+    badge: 'New Arrival',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCZj2adgpAY0IVRXdD_RhJLeRdrl9yUA1KQvRLI8Y3aobjsHFhutYfleQuESwgVj9jZH6H9WJ0HvNMyGFtAD8n0bOgpv2k_j_pV-W9hyCxXmij8TF8EosDtxr89Q9eklL8s7hkpu2QkcShV6bwzF6ztIqHKCb4mrE6TX3ETGAxX6gGtjFaZEfLeyqIGeFNiZfOBX-KUwibCMFt2DadgvFCHdqf7hFJ06vVreD4XL3UzpttpXtZcWNb-cqUOKJaBV_siEKebxlGr0WM8',
+    description: 'An exceptionally elegant 2LDK high-rise residence available for long-term rent in Tokyo’s premier design district Aoyama. Fully furnished with high-end designer pieces, custom cabinetry, smart climate control, and hotel-style services.',
+    jpDescription: '青山高檔住宅區頂級設計師公寓出租。全屋附帶進口北歐名品家具、定制更衣室。享有24小時大樓管家、空中走廊健身房。',
+    purpose: 'rent',
+    details: {
+      yearBuilt: '2021',
+      station: '3 min walk from Omotesando Station (Chiyoda/Hanzomon Lines)',
+      structure: 'Reinforced Concrete (RC)',
+      amenities: ['Fully Furnished', 'Miele Kitchen Appliances', 'Concierge', 'Gym Access', 'Underground Parking Available'],
+      monthlyFee: '¥15,000 (included)'
+    }
+  },
+  {
+    id: '7',
+    title: 'Yokohama Harbor View Penthouse',
+    jpTitle: '橫濱港灣無敵海景住宅',
+    price: 350000,
+    priceDisplay: '¥350,000 / month',
+    location: 'Nishi-ku, Yokohama',
+    region: 'Kanagawa',
+    type: '3LDK',
+    area: '92.40m²',
+    floor: '32F',
+    badge: 'Popular',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBpNOWltgAhMI1lCfmN1ekidRsYI2MhPVUAXt6vE3t9tmoYkv-bfgVg6KsBYd9nJDNavzOdhx0nYKWHlx5BpovpsKeJaDDC9pyyPKRaO_2I3LdhHzkP1-gVIz1NVuf1IUzYkquuf_c5gU4FBxfqOV2qkPcpCw7yrHbdvvBqN3FT5ayp061AuKwbc01yLegg2DTrfReuSCKWFbp1Xxl_UQ0L02dByV_aFA28mfqQn-NZW2B-ZdTs6pCVGOBjMs4nknKP4jcbOMU58832',
+    description: 'Spectacular long-term rental home situated on the 32nd floor of a prestigious Yokohama residential tower. Offers soaring, unobstructed views of the Yokohama Port, Minato Mirai bay area, and Mount Fuji.',
+    jpDescription: '橫濱港未來21超高層地標公寓。位於32層，客廳巨幅落地窗飽覽橫濱大橋、碧海天際線，晴朗之日可清晰眺望富士山。',
+    purpose: 'rent',
+    details: {
+      yearBuilt: '2022',
+      station: '2 min walk from Minatomirai Station',
+      structure: 'RC Structure with Damping Wall',
+      amenities: ['Harbor Panoramic Balcony', 'Intercom Security', 'System Kitchen with Oven', 'Walk-in Shoe Closet', 'Guest Suites Available'],
+      monthlyFee: '¥10,000 (included)'
+    }
+  }
+];

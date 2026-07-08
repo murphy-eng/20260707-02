@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-primary: #b60020;
+  --color-brand-primary-hover: #930018;
+  --color-brand-background: #f9f9ff;
+  --color-brand-surface-subtle: #F7F8F9;
+  --color-brand-border-light: #E5E7EB;
+  --color-brand-on-surface: #151c27;
+  --color-brand-secondary: #5c5e64;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-background);
+  color: var(--color-brand-on-surface);
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(21, 28, 39, 0.4), rgba(21, 28, 39, 0.1));
+}
+
